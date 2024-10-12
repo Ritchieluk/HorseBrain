@@ -1,9 +1,12 @@
 # HorseBrain - ReadMe
+The frontend application for a horse race predictor assisted by powerful AI.
+
+
 
 ## Notes
 
 -  Frontend will connect to API
-- Focus on Keeneland 
+- Focus on Keeneland to start
 - Races will have
   - list of horses, info for horses, + predictions
 
