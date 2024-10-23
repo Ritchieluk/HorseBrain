@@ -4,7 +4,7 @@ const path = require('path')
 export default defineNuxtConfig({
   target: 'static',
   router: {
-    base: "/ritchieluk.github.io/"
+    base: "/ritchieluk.github.io/HorseBrain/"
   },
 
   compatibilityDate: '2024-04-03',
