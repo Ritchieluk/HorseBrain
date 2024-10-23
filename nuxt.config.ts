@@ -1,10 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+module.exports = {
+  router: {
+    base: "/HorseBrain/"
+  },
+
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/tailwindcss', 
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
   ],
-
-})
+}
