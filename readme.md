@@ -1,6 +1,7 @@
 # HorseBrain - ReadMe
 The frontend application for a horse race predictor assisted by powerful AI.
 
+Currently hosted: https://ritchieluk.github.io/HorseBrain/
 
 
 ## Notes

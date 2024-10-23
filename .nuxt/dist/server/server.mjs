@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/ritch/Documents/Coding%20Projects/HorseBrain/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
