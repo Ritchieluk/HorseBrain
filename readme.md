@@ -1,5 +1,9 @@
 # HorseBrain - ReadMe
 
+## Running the Frontend
+>npm run dev -- -0
+
+
 ## Notes
 
 -  Frontend will connect to API
