@@ -1,10 +1,10 @@
 const pkg = require("./package");
 const path = require('path')
 
-module.exports = {
+export default defineNuxtConfig({
   target: 'static',
   router: {
-    base: "/HorseBrain/"
+    base: "/ritchieluk.github.io/"
   },
 
   compatibilityDate: '2024-04-03',
@@ -20,14 +20,4 @@ module.exports = {
     mode: 'postcss',
     enabled: (process.env.NODE_ENV === 'production')
   },
-
-  build: {
-    postcss: {
-      plugins: {
-        tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
-        'postcss-import': {},
-        'postcss-nested': {}
-      },
-    },
-  }
-}
+})
