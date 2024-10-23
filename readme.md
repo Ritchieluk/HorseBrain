@@ -1,9 +1,13 @@
 # HorseBrain - ReadMe
+The frontend application for a horse race predictor assisted by powerful AI.
+
+Currently hosted: https://ritchieluk.github.io/HorseBrain/
+
 
 ## Notes
 
 -  Frontend will connect to API
-- Focus on Keeneland 
+- Focus on Keeneland to start
 - Races will have
   - list of horses, info for horses, + predictions
 
@@ -15,25 +19,25 @@
 
 # Sitemap
 
-/
-/[location]
-/[location]/[raceday]
-/[location]/[raceday]
-/[location]/[raceday]/[race]
-/[location]/[raceday]/[race]/[horse]
-/[location]/[raceday]/[race]/[jockey]
-/[location]/[raceday]/[race]/[owner]
-/[location]/[raceday]/[race]/[trainer]
+/  
+/[location]  
+/[location]/[raceday]  
+/[location]/[raceday]  
+/[location]/[raceday]/[race]  
+/[location]/[raceday]/[race]/[horse]  
+/[location]/[raceday]/[race]/[jockey]  
+/[location]/[raceday]/[race]/[owner]  
+/[location]/[raceday]/[race]/[trainer]  
 
 ## V1 - Take Live
 
-/About
-/Statistics     # - Examples of bot performance
-/Contact Us
+/About  
+/Statistics     # - Examples of bot performance  
+/Contact Us  
 
 ## V2 - User Accounts & Monetization
 
-/Pricing
-/[user]/
-/[user]/[my_list]  # - Users can track races they have purchased predictions for
-/[user]/settings
+/Pricing  
+/[user]/  
+/[user]/[my_list]  # - Users can track races they have purchased predictions for  
+/[user]/settings  
