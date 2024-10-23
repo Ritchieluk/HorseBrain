@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://137.184.200.165:8000';
+const API_BASE_URL = 'https://horsebrain.duckdns.org:8000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
