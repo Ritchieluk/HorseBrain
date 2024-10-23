@@ -1,3 +1,16 @@
 <template>
-    <h1> Index Page</h1>
+  <div>
+    <RacedayContainerList />
+  </div>
 </template>
+
+<script>
+import RacedayContainerList from '@/components/data_display/Racedays/RacedayContainerList';
+
+export default {
+  name: 'index',
+  components: {
+    RacedayContainerList
+  }
+};
+</script>
