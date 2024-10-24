@@ -13,10 +13,12 @@
             <span class="font-medium">{{ raceday.id }}</span>
 
             <div class="flex flex-col space-y-2">
-                <div>Track Name: <span class="font-bold">{{ raceday.track_name }}</span></div>
-                <div>Date: {{ raceday.date }}</div>
-                <div>Number of Races: {{ raceday.num_races }}</div>
-                <div>Post Time: {{ raceday.post_time }}</div>
+                <h4><span class="font-bold">{{ raceday.track_name }}</span></h4>
+                <div class="track-details">
+                    <p><strong>Date: </strong> {{ raceday.date }}</p>
+                    <p><strong>Number of Races:</strong> {{ raceday.num_races }}</p>
+                    <p><strong>Post Time: </strong>{{ raceday.post_time }}</p>
+                </div>
             </div>
             </nuxt-link>
         </div>
@@ -32,10 +34,16 @@ export default {
 
 <style scoped>
 .text-wrapper:hover {
-    background-color: #5c6ed4;
+    background-color: var(--contrast-color);
 }
 
 .text-wrapper:active {
     background-color: #5c6ed4;
+}
+
+.track-details {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 450;
 }
 </style>
