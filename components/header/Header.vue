@@ -1,9 +1,40 @@
-<template>
-  <header class="flex items-center justify-start bg-blue_light shadow-md px-4 py-2">
-    <nuxt-link to="/" class="flex items-center bg-black rounded-lg px-3 py-1 cursor-pointer hover:bg-gray-800 transition-colors duration-200">
-      <img src="../../static/horse.png" alt="Horse" class="w-12 h-12 mr-2">
-      <h1 class="text-2xl font-bold text-white">HorseBrain</h1>
-    </nuxt-link>
+<template> 
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div id="heading" class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <nuxt-link to="/" class="logo d-flex align-items-center">
+        <img src="../../static/horse.png" alt="Horse" >
+        <h1 class="sitename">HorseBrain</h1>
+      </nuxt-link>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Today's Races</a></li>
+          <li><a href="#services">Racetracks</a></li>
+          <li><a href="#portfolio">Pricing</a></li>
+          <li><a href="#portfolio">Contact Us</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a class="btn-sign-in" href="#contact">Sign In</a></li>
+          <br>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
   </header>
 </template>
   
@@ -35,9 +66,4 @@
 </script>
 
 <style lang="scss" scoped>
-  .title {
-    background: url('../../static/horse.png') no-repeat;
-    background-position: 50% 50%;
-    background-size: 165px;
-  }
 </style>

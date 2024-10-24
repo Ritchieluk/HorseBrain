@@ -77,7 +77,7 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/",
+    "baseURL": "/HorseBrain/",
     "buildId": "dev",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
@@ -132,7 +132,8 @@ const _inlineRuntimeConfig = {
         "typedOptionsAndMessages": false
       },
       "multiDomainLocales": false
-    }
+    },
+    "aos": {}
   }
 };
 const envOptions = {

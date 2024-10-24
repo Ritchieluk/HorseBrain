@@ -122,6 +122,12 @@
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables/index"
       ],
+      "#aos": [
+        "../node_modules/nuxt-aos/dist/runtime"
+      ],
+      "#aos/*": [
+        "../node_modules/nuxt-aos/dist/runtime/*"
+      ],
       "#vue-router": [
         "./vue-router"
       ]
@@ -136,6 +142,7 @@
     "./types/nitro-nuxt.d.ts",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
+    "../node_modules/nuxt-aos/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",
