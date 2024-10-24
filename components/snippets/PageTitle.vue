@@ -4,7 +4,7 @@
         <h1>Racetracks</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><Nuxt-link to="/">Home</Nuxt-link></li>
+            <li><Nuxt-link class="breadcrumb-link" to="/">Home</Nuxt-link></li>
             <li class="current">Racetracks</li>
           </ol>
         </nav>
