@@ -12,15 +12,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-aos'],
-  bootstrapVue: {
-    bootstrapCSS: false, // Or `css: false`
-    bootstrapVueCSS: false // Or `bvCSS: false`
-  },
 
 
   head: {
     link: [
-      {rel: 'stylesheet', type: 'text/css', href: '/bootstrap/css/bootstrap.min.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/bootstrap-icons/bootstrap-icons.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/aos/aos.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/swiper/swiper-bundle.min.css'}
@@ -32,7 +27,7 @@ export default defineNuxtConfig({
     ]
   },
 
-  css: ['@/assets/css/main.css', '@/assets/scss/main.scss', '~/node_modules/bootstrap/dist/css/bootstrap.min.css'],
+  css: ['@/assets/css/fonts.css', '~/node_modules/bootstrap/dist/css/bootstrap.min.css', '@/assets/css/main.css', '@/assets/scss/main.scss'],
 
   purgeCSS: {
     mode: 'postcss',

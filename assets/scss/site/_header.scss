@@ -11,6 +11,8 @@
     padding: 15px 0;
     transition: all 0.5s;
     z-index: 997;
+    font-family: amagrobold;
+    position: fixed;
   
     #heading {
       margin-bottom: 0px;
@@ -23,7 +25,7 @@
     #heading:after {
       content: '';
       position: absolute;
-      left: -5;
+      left: -10px;;
       top: -10%;
       width: 2px;
       height: 100%;

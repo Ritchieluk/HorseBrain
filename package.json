@@ -16,6 +16,7 @@
     "date-fns": "^2.30.0",
     "nuxt": "^3.13.0",
     "nuxt-aos": "^1.2.5",
+    "swiper": "^11.1.14",
     "v-calendar": "^3.1.2",
     "vue": "latest",
     "vue-router": "latest"

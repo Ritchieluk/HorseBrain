@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Active Racetracks Section
+--------------------------------------------------------------*/
+.active-racetracks {
+    position: relative;
+    background-color: color-mix(in srgb, var(--heading-color), transparent 30%);
+    margin-bottom: -20px;
+    margin-top: -20px;
+  
+    #title {
+      color: var(--surface-color);
+    }
+  
+    .swiper-slide {
+      img {
+        opacity: 0.8;
+        transition: 0.3s;
+        filter: grayscale(100);
+  
+        &:hover {
+          filter: none;
+          opacity: 1;
+        }
+      }
+    }
+  
+    .swiper-wrapper {
+      height: 12vh;
+    }
+  
+    .swiper-pagination {
+      margin-top: 20px;
+      position: relative;
+  
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+      }
+  
+      .swiper-pagination-bullet-active {
+        background-color: var(--accent-color);
+      }
+    }
+  }

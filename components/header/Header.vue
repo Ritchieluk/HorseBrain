@@ -9,7 +9,7 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">Today's Races</a></li>
-          <li><a href="#services">Racetracks</a></li>
+          <li><nuxt-link to="/Racetracks">Racetracks</nuxt-link></li>
           <li><a href="#portfolio">Pricing</a></li>
           <li><a href="#portfolio">Contact Us</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

@@ -1,0 +1,103 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Racetracks Section
+--------------------------------------------------------------*/
+.racetracks {
+    container {
+        display: flex;
+    }
+    .img {
+      border-radius: 8px;
+      overflow: hidden;
+  
+      img {
+        transition: 0.6s;
+      }
+    }
+  
+    .details {
+      background: color-mix(in srgb, var(--surface-color), transparent 5%);
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      padding: 20px;
+      transition: all ease-in-out 0.3s;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+      justify-content: space-between;
+  
+      h3 {
+        font-weight: 700;
+        margin: 10px 0 15px 0;
+        font-size: 18px;
+        transition: ease-in-out 0.3s;
+      }
+  
+      p {
+        color: color-mix(in srgb, var(--default-color), transparent 10%);
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+  
+    .racetrack-item:hover {
+      .details {
+        h3 {
+          color: var(--heading-color);
+        }
+      }
+  
+      .img img {
+        transform: scale(1.2);
+      }
+  
+      .additional-details {
+        .col-md-4 {
+          transition: 0.5s;
+          background: var(--default-color);
+        }
+  
+        h3 {
+          transition: 0.5s;
+          color: var(--surface-color);
+        }
+  
+        p {
+          transition: 0.5s;
+          color: var(--accent-color);
+        }
+      }
+    }
+  
+    .track-logo {
+      max-height: 35px;
+      margin: 0 0 15 0;
+    }
+  
+    .additional-details {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-top: 10px;
+      margin-bottom: -5px;
+      justify-content: space-between;
+  
+      .row {
+        justify-content: space-between;
+      }
+  
+      .col-md-4 {
+        border: 2px inset var(--default-color);
+        border-radius: 4px;
+        width: 30%;
+        padding: 0 0 5 0;
+      }
+  
+      h3 {
+        font-size: 16;
+      }
+    }
+  }
